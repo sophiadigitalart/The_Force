@@ -1,3 +1,18 @@
+# Music visualization shader for algosix
+
+This is a shader created specially by Bruce Lane for algosix.
+
+The WebGL Fragment Shader receives uniform variables to bring interactivity:
+- Audio-reactive: a Fast Fourier Transform is calculated from the sound spectrum at each animation frame (uniform: bands).
+- Time-based animation (uniform: time)
+
+The music is a mix from [Gunston](https://soundcloud.com/gunston)
+
+The live-coding environment is created by Shawn Lawson and modifyed by Bruce Lane:
+- load sound on startup
+
+The rest of this document is from the original repository:
+
 # The Force
 
 Life creates it, makes it grow. Its energy surrounds us and binds us. Luminous beings are we, not this crude matter. You must feel the Force around you; here, between you, me, the tree, the rock, everywhere, yes.
@@ -5,7 +20,7 @@ Life creates it, makes it grow. Its energy surrounds us and binds us. Luminous b
 Force felt by [Obi-Wan Codenobi](http://shawnlawson.com) for use in live-coding performances with [The Wookie](http://ryanrosssmith.com). Together they travel as [_The Rebel Scum_](http://codenobiandwookie.com).
 
 ## API
-If you're looking for which functions are built-in, then give the wiki [API](https://github.com/shawnlawson/The_Force/wiki/API) a look.
+If you're looking for which functions are built-in, then give the wiki [API](./wiki/API) a look.
 
 ### Additionally helpful to know
 
