@@ -446,7 +446,11 @@ iff     = if(false){
 vc     = vec2 v2 = vec2(0.0,0.0);
 vvc    = vec3 v3 = vec3(0.0,0.0,0.0);
 vvvc   = vec4 v4 = vec4(0.0,0.0,0.0,0.0);
-ft     = float
+fc     = float fc(vec2 vin) { float f=0.0; return f; }
+ffc     = vec2 fc(vec2 vin) { vec2 v2=vec2(0.0,0.0); return v2; }
+fffc    = vec3 fc(vec2 vin) { vec3 v3 = vec3(0.0,0.0,0.0); return v3; }
+ffffc   = vec4 fc(vec2 vin) { vec4 v4 = vec4(0.0,0.0,0.0,0.0); return v4; }
+ft     = float f= 0.0;
                 </pre>
             </div>
             <div id="tabsHelp-7">
